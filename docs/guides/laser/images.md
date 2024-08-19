@@ -1,15 +1,14 @@
-# Working with images on the laser cutter
+# LightBurn and Images
 
-## Coming Soon
+## Loading the image
 
-Some proper notes on how to achieve image details using Lightburn will be added soon, but there are a few good guides on how to get images to burn in (similar to a charcoal sketch) on YouTube.  
-One that has been referenced with some success is [this one](https://www.youtube.com/watch?v=P4to-VHA0do).  
-
+For actual image editing, like cropping or rounding corners etc, it's suggested to use something like Illustrator, GIMP, or your preferred image editing software.  
+Once you have an image ready to work with in the cutter (with LightBurn), Lightburn allows you to simply drag an image into the project window and start manipulating it (in a limited amount).  
 
 ## Adjusting the image
 
 Once an image has been loaded into LightBurn, you have a couple options.  
-The most common is to do an "Image Trace", which will allow you to cut out the outline of whatever you imported. The second is to simply "Adjust Image".
+The most common is to do an "Image Trace", which will allow you to cut out the outline of whatever you imported. The second is to use "Adjust Image" to get it ready for 'drawing' with the laser.
 
 === "Image Trace"
     Once the image has been loaded, you can right-click on it and select "Image Trace".  
