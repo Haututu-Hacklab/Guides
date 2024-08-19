@@ -6,9 +6,10 @@ Some proper notes on how to achieve image details using Lightburn will be added 
 One that has been referenced with some success is [this one](https://www.youtube.com/watch?v=P4to-VHA0do).  
 
 
-## After importing the image into LightBurn
+## Adjusting the image
 
-Once an image has been loaded into LightBurn, you have a couple options. The most common is to do an "Image Trace", which will allow you to cut out the outline of whatever you imported. The second is to simply "Adjust Image".
+Once an image has been loaded into LightBurn, you have a couple options.  
+The most common is to do an "Image Trace", which will allow you to cut out the outline of whatever you imported. The second is to simply "Adjust Image".
 
 === "Image Trace"
     Once the image has been loaded, you can right-click on it and select "Image Trace".  
