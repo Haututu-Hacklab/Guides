@@ -15,7 +15,7 @@ Please see the [repository readme](https://github.com/Haututu-Hacklab/Guides/blo
         ... # Files to be included in other pages that shouldn't be directly accessible themselves.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other top-level markdown pages, including explanations of each Ombi UI page.
+        ...       # Other top-level markdown pages, including explanations of each one.
         assets/
             images/
                 embeds/

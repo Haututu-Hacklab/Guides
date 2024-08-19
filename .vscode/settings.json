@@ -1,0 +1,28 @@
+{
+    "markdownlint.config": {
+        "default": true,
+        "code-block-style": { "style": "consistent" },
+        "ol-prefix": { "style": "one_or_ordered" },
+        "MD046": false,
+        "MD007": false,
+        "emphasis-style": { "style": "underscore" },
+        "ul-style": { "style": "dash" },
+        "whitespace": false
+    },
+    "cSpell.allowCompoundWords": true,
+    "cSpell.language": "en-GB",
+    "cSpell.words": [
+        "abbr",
+        "color",
+        "dprinting",
+        "Hacklab",
+        "Haututu",
+        "inlinehilite",
+        "knowledgebase",
+        "materialx",
+        "mkdocs",
+        "Parkes",
+        "pymdownx"
+    ],
+    "editor.detectIndentation": false
+}
