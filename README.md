@@ -1,4 +1,4 @@
-# Hautūtu KB
+# Haututu KB
 
 ## Setting up a dev environment
 

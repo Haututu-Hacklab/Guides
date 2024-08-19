@@ -1,7 +1,7 @@
 ---
-description: The (un)Official Hautūtu Hacklab knowledge base!
+description: The (un)Official Haututu Hacklab knowledge base!
 ---
-# Hautūtu Hacklab Knowledge Base
+# Haututu Hacklab Knowledge Base
 
 **Welcome to the (un)official Hacklab Knowledge Base!**
 
