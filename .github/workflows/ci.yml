@@ -15,11 +15,11 @@ jobs:
             python-version: 3.x
       - run: echo "cache_id=\$(date --utc '+%V')" >> \$GITHUB_ENV
       - uses: actions/cache@v3
-          with:
-            key: mkdocs-material-\$
-            path: .cache
-            restore-keys: |
-              mkdocs-material-
+        with:
+        key: mkdocs-material-\$
+        path: .cache
+        restore-keys: |
+            mkdocs-material-
       - run: pip install wheel
       - run: pip install mkdocs-material
       - run: mkdocs-redirects>=1.2.0
