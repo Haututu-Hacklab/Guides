@@ -1,5 +1,7 @@
 # Haututu KB
 
+View the knowledgebase [here](https://haututu-hacklab.github.io/Guides/).
+
 ## Setting up a dev environment
 
 The easiest method to install mkdocs is via python - it's consistent across different OS environments.  
