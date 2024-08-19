@@ -26,6 +26,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
+    - toc.follow
+    - toc.integrate
   favicon: assets/logo/favicon.ico
   logo: assets/logo/haututu.png
   palette:
@@ -108,6 +110,7 @@ nav:
     - Membership: info/membership.md
     - Facilities: info/facilities.md
   - Guides:
+    - guides/index.md
     - Laser Cutting:
       - Images: guides/laser/images.md
       - Materials: guides/laser/materials.md
