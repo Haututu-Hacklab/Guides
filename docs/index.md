@@ -28,3 +28,8 @@ For info about the Hacklab itself
     - [Working with images](./guides/laser/images)
     - [Different materials](./guides/laser/materials)
     - [Effects of laser speeds](./guides/laser/speeds)
+
+- ### Artificial Intelligence
+
+    - [Making Art with AI](guides/ai/art)
+    - [Chatbots and talking with LLMs](guides/ai/chat)
