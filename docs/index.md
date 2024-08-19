@@ -9,10 +9,12 @@ Please note the docs are maintained by Dyson, but anyone is welcome to add to th
 
 Have a browse through, and if you have any info to be added, feel free to add by following th directions above (or put it into a nice document and throw it in the Discord for someone to put into the site).  
 
+For info about the Hacklab itself
+
 ## Getting started
 
-- [Membership](./info/membership)
-- [Facilities](./info/facilities)  
+- [Membership](https://www.haututuhacklab.nz/membership)
+- [Facilities](https://www.haututuhacklab.nz/spaces/)  
 
 ## Guides
 
