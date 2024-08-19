@@ -1,6 +1,7 @@
 # Haututu KB
 
-View the knowledgebase [here](https://haututu-hacklab.github.io/Guides/).
+View the knowledgebase [here](https://haututu-hacklab.github.io/Guides/).  
+For the official site of the Haututu Hacklab, see [www.haututuhacklab.nz](https://www.haututuhacklab.nz).
 
 ## Setting up a dev environment
 
