@@ -22,8 +22,9 @@ jobs:
             mkdocs-material-
       - run: pip install wheel
       - run: pip install mkdocs-material
-      - run: Pygments>=2.13.0
-      - run: pymdown-extensions>=9.9
+      - run: pip install mkdocs-redirects>=1.2.0
+      - run: pip install Pygments>=2.13.0
+      - run: pip install pymdown-extensions>=9.9
       - run: pip install mkdocstrings
       - run: pip3 install mkdocs-git-revision-date-localized-plugin
       - working-directory: ./docs
