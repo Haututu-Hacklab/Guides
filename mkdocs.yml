@@ -2,12 +2,13 @@
 site_name: Haututu Guides
 site_description: The official guide for Ombi 
 site_author: Dyson Parkes
-#site_url: https://docs.ombi.app/
-#edit_uri: https://github.com/Haututu-Hacklab/Guides/edit/development/docs/
+site_url: https://haututu-hacklab.github.io/Guides/
+edit_uri: https://github.com/Haututu-Hacklab/Guides/edit/development/docs/
 repo_url: https://github.com/Haututu-Hacklab/Guides
 repo_name: Haututu-Hacklab/Guides
 copyright: >
   Copyright &copy; 2024 <a href="https://github.com/Haututu-Hacklab/">Haututu Hacklab</a> – <a href="#__consent">Change cookie settings</a>
+
 # Site appearance (logos, colours, icons)
 theme:
   name: material
@@ -26,7 +27,7 @@ theme:
     - navigation.top
     - navigation.tracking
   favicon: assets/logo/favicon.ico
-  #logo: assets/logo/tobeadd.png
+  #logo: assets/logo/tobeadded.png
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
