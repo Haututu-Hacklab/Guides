@@ -31,5 +31,4 @@ jobs:
       - run: pip install pymdown-extensions
       - run: pip install mkdocstrings
       - run: pip3 install mkdocs-git-revision-date-localized-plugin
-      #- working-directory: ./docs
       - run: mkdocs gh-deploy --force
