@@ -1,5 +1,8 @@
-wheel>=0.38.4
-mkdocs-material>=8.5.11
-mkdocs-git-revision-date-localized-plugin>=1.1.0
-Pygments>=2.13.0
-pymdown-extensions>=9.9
+wheel
+mkdocs-material
+mkdocs-redirects
+mkdocs-git-authors-plugin
+mkdocs-git-revision-date-localized-plugin
+Pygments
+pymdown-extensions
+mkdocstrings
