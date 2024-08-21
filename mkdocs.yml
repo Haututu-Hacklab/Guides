@@ -12,7 +12,7 @@ copyright: >
 # Site appearance (logos, colours, icons)
 theme:
   name: material
-  custom_dir: docs/overrides
+  #custom_dir: docs/overrides
   language: en
   code_wrap: true
   features:
