@@ -118,6 +118,9 @@ nav:
     - 3D Printing:
       - Things to consider: guides/3dprinting/considerations.md
       - Limitations: guides/3dprinting/limitations.md
+    - Artificial Intelligence:
+      - Making Art with AI: guides/ai/art.md
+      - Chatbots and talking with LLMs: guides/ai/chat.md
   - Contributing:
     - Adding to the info: info/addinginfo.md
   - Official Hacklab Site: https://www.haututuhacklab.nz/
