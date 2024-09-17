@@ -18,6 +18,7 @@ theme:
   features:
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
     - header.autohide
     - navigation.expand
     - navigation.indexes
@@ -28,7 +29,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.follow
-  favicon: assets/logo/favicon.ico
+  favicon: assets/logo/haututu.png
   logo: assets/logo/haututu.png
   palette:
     # Light mode
@@ -87,7 +88,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.saneheaders
   - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -104,6 +107,10 @@ plugins:
       locale: en
       fallback_to_build_date: false
   - git-authors
+
+# Extra Files
+watch:
+  - includes
 
 # Navigation Layout
 nav:
