@@ -17,7 +17,7 @@ For reliable cutting, the maximum material thickness is 16mm MDF or 18mm pine. W
 ## Laser Details
 
 The unit at Haututu has the 100W tube, giving it a slightly higher power output. This allows for much cleaner cuts with the same power settings as a lower-power laser.  
-The focal point size (or the cut width) of the laser is 0.01mm, so remember to allow tolerances in anything you design (similar to the 'kerf' of a saw blade).  
+The focal point size (or the cut width) of the laser is 0.1mm, so remember to allow tolerances in anything you design (similar to the 'kerf' of a saw blade).  
 Anything you cut out will be done so with a tolerance of the focal size.
 
 ## Detail Summary
@@ -28,4 +28,4 @@ Anything you cut out will be done so with a tolerance of the focal size.
 | Bed Length | 900mm |
 | Bed Depth | <450mm |
 | Laser Strength | 100W (continuous) |
-| Focal Point | 0.01mm |
+| Focal Point | 0.1mm |
