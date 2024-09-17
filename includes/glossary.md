@@ -7,3 +7,4 @@
 *[XPos]: The horizontal (left-to-right) coordinate of the head
 *[YPos]: The vertical (front-to-back) coordinate of the head
 *[LLM]: Large Language Model
+*[LLMs]: Large Language Models
