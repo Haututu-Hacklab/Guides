@@ -8,3 +8,4 @@
 *[YPos]: The vertical (front-to-back) coordinate of the head
 *[LLM]: Large Language Model
 *[LLMs]: Large Language Models
+*[Focal Point]: How wide the beam of the laser is / how finely it can cut
