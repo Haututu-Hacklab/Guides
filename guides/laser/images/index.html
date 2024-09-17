@@ -21,7 +21,7 @@
         <link rel="next" href="../machine-details/">
       
       
-      <link rel="icon" href="../../../assets/logo/favicon.ico">
+      <link rel="icon" href="../../../assets/logo/haututu.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
     
     
@@ -1169,7 +1169,7 @@
 
 <h1 id="lightburn-and-images">LightBurn and Images<a class="headerlink" href="#lightburn-and-images" title="Permanent link">&para;</a></h1>
 <h2 id="loading-the-image">Loading the image<a class="headerlink" href="#loading-the-image" title="Permanent link">&para;</a></h2>
-<p>For actual image editing, like cropping or rounding corners etc, it's suggested to use something like Illustrator, GIMP, or your preferred image editing software.<br />
+<p>For actual image editing, like cropping or rounding corners etc, it's suggested to use something like Illustrator, <abbr title="GNU Image Manipulation Program">GIMP</abbr>, or your preferred image editing software.<br />
 Once you have an image ready to work with in the cutter (with LightBurn), Lightburn allows you to simply drag an image into the project window and start manipulating it (in a limited amount).  </p>
 <h2 id="adjusting-the-image">Adjusting the image<a class="headerlink" href="#adjusting-the-image" title="Permanent link">&para;</a></h2>
 <p>Once an image has been loaded into LightBurn, you have a couple options.<br />
@@ -1202,11 +1202,12 @@ We want to ensure that "Air Assist" is on, and that we enable "Bi-directional sc
 For Power, this again varies by material, so make use of the knowledge around and check with someone who has tried similar things. Ensure "Constant Power Mode" is <em>disabled</em>, as we want both Max <em>and Min</em> options - this will allow the laser to ramp up and down on its own depending on the shade in the image. 20% can be a good option for Min on 3-4mm ply, and 40% is a pretty good option for Max on the same.</p>
 <h2 id="adding-a-cut-command">Adding a cut command<a class="headerlink" href="#adding-a-cut-command" title="Permanent link">&para;</a></h2>
 <p>Using the "Rectangle" tool, draw a simple box, and then adjust the Width and Height of it to the same size as the image you've just been working with.<br />
-Then, change the XPos and YPos of it to the same as the image - this will ensure it traces around the image itself.<br />
+Then, change the <abbr title="The horizontal (left-to-right) coordinate of the head">XPos</abbr> and <abbr title="The vertical (front-to-back) coordinate of the head">YPos</abbr> of it to the same as the image - this will ensure it traces around the image itself.<br />
 With the outline selected, click on one of the tools down the bottom, and then configure it in the "Cuts/Layers" window up the top - this should be "Line" or "Cut" Mode.<br />
 Set the power and speed for cutting the material. If it's a material that's particularly awkward, consider doing slightly lower power but a higher "Pass Count", so that it repeats the same cut a few times until the cut is done.</p>
 <h2 id="send-it">Send it<a class="headerlink" href="#send-it" title="Permanent link">&para;</a></h2>
 <p>That's it, done. The last thing to do is to actually line up the cut, set the origin, confirm you're framed up, and hit "Start". How to do that will be on a different page to this one, soon.</p>
+<h1 id="glossary-of-terms">Glossary of Terms<a class="headerlink" href="#glossary-of-terms" title="Permanent link">&para;</a></h1>
 
 
 
@@ -1378,7 +1379,7 @@ Set the power and speed for cutting the material. If it's a material that's part
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.tabs.link", "header.autohide", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.tabs.link", "content.tooltips", "header.autohide", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
