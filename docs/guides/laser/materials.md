@@ -20,12 +20,12 @@ This page is very much a WIP (Work In Progress).
 
     | Action | Power Level | Head Speed |
     | --- | --- | --- |
-    | Lightly engrave | 10% | 200 mm/s |
-    | Cut | 80% | 100 mm/s |
+    | Lightly engrave | ??% | ?? mm/s |
+    | Cut | ??% | ?? mm/s |
 
 === "8mm ply"
 
     | Action | Power Level | Head Speed |
     | --- | --- | --- |
-    | Lightly engrave | 10% | 200 mm/s |
-    | Cut | 80% | 100 mm/s |
+    | Lightly engrave | ??% | ?? mm/s |
+    | Cut | ??% | ?? mm/s |
