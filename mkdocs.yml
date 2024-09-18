@@ -18,6 +18,7 @@ theme:
   features:
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
     - header.autohide
     - navigation.expand
     - navigation.indexes
@@ -28,8 +29,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - toc.follow
-    - toc.integrate
-  favicon: assets/logo/favicon.ico
+  favicon: assets/logo/haututu.png
   logo: assets/logo/haututu.png
   palette:
     # Light mode
@@ -76,6 +76,7 @@ markdown_extensions:
   - abbr
   - admonition
   - attr_list
+  - md_in_html
   - meta
   - pymdownx.details
   - pymdownx.emoji:
@@ -87,7 +88,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.saneheaders
   - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -105,6 +108,10 @@ plugins:
       fallback_to_build_date: false
   - git-authors
 
+# Extra Files
+watch:
+  - includes
+
 # Navigation Layout
 nav:
   - Home: index.md
@@ -115,6 +122,7 @@ nav:
     - guides/index.md
     - Laser Cutting:
       - Images: guides/laser/images.md
+      - Machine Details: guides/laser/machine-details.md
       - Materials: guides/laser/materials.md
       - Speeds: guides/laser/speeds.md
     - 3D Printing:
