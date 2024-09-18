@@ -123,6 +123,8 @@ nav:
     - Artificial Intelligence:
       - Making Art with AI: guides/ai/art.md
       - Chatbots and talking with LLMs: guides/ai/chat.md
+    - Virtual Reality:
+      - Playing games with Virtual Reality: guides/virtual-reality/playing-games.md
   - Contributing:
     - Adding to the info: info/addinginfo.md
   - Official Hacklab Site: https://www.haututuhacklab.nz/
