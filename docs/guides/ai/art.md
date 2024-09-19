@@ -8,7 +8,7 @@ The AI station is set up for AI image generation.
 
 InvokeAI is a user-friendly UI geared towards artists, and provides the usual image generation tools as well as an editing canvas.
 
-There is an `invokeai-web` shortcut on the taskbar that can be used to start InvokeAI. From here you should navigate to http://192.168.42.118:9090 in the browser to load the UI.
+There is a `Start InvokeAI` shortcut on the taskbar that can be used to start InvokeAI. From here you should navigate to [http://192.168.42.118:9090](http://192.168.42.118:9090) in the browser to load the UI.
 
 InvokeAI also has a workflow tab that provides a more advanced node-based interface.
 
