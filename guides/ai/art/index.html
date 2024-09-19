@@ -22,7 +22,7 @@
       
       
       <link rel="icon" href="../../../assets/logo/haututu.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.35">
     
     
       
@@ -497,6 +497,8 @@
       
         
       
+        
+      
     
     
       
@@ -901,6 +903,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Running">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#invokeai" class="md-nav__link">
+    <span class="md-ellipsis">
+      InvokeAI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comfyui" class="md-nav__link">
+    <span class="md-ellipsis">
+      ComfyUI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -933,6 +959,84 @@
   
   <span class="md-ellipsis">
     Chatbots and talking with LLMs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Virtual Reality
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Virtual Reality
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../virtual-reality/playing-games/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Playing games with Virtual Reality
   </span>
   
 
@@ -1084,6 +1188,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Running">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#invokeai" class="md-nav__link">
+    <span class="md-ellipsis">
+      InvokeAI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comfyui" class="md-nav__link">
+    <span class="md-ellipsis">
+      ComfyUI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1115,26 +1243,27 @@
 
 <h1 id="making-art-with-ai">Making Art with <abbr title="Artificial Intelligence">AI</abbr><a class="headerlink" href="#making-art-with-ai" title="Permanent link">&para;</a></h1>
 <p>The <abbr title="Artificial Intelligence">AI</abbr> station is set up for <abbr title="Artificial Intelligence">AI</abbr> image generation.</p>
-<p>TODO write this while at the Hacklab...</p>
 <h2 id="running">Running<a class="headerlink" href="#running" title="Permanent link">&para;</a></h2>
-<p>For beginners, run InvokeAI. This is a straightforward UI geared towards artists, while hiding away some of the more advanced options.</p>
-<p>For more advanced usages, locate ComfyUI. This is a node-based tool that you can use to build advanced image generation and processing pipelines.</p>
+<h3 id="invokeai">InvokeAI<a class="headerlink" href="#invokeai" title="Permanent link">&para;</a></h3>
+<p>InvokeAI is a user-friendly UI geared towards artists, and provides the usual image generation tools as well as an editing canvas.</p>
+<p>There is a <code class="highlight">Start InvokeAI</code> shortcut on the taskbar that can be used to start InvokeAI. From here you should navigate to <a href="http://192.168.42.118:9090">http://192.168.42.118:9090</a> in the browser to load the UI.</p>
+<p>InvokeAI also has a workflow tab that provides a more advanced node-based interface.</p>
+<h3 id="comfyui">ComfyUI<a class="headerlink" href="#comfyui" title="Permanent link">&para;</a></h3>
+<p>ComfyUI is also available for more advanced uses. This is a node-based tool that you can use to build in-depth image generation and processing pipelines.</p>
+<p>Look in the start menu for <strong>Stability Matrix</strong>, you can run ComfyUI from within this interface, which should launch the browser window for you as well. You may have to close the InvokeAI terminal window first if this is running.</p>
 <h2 id="common-parameters">Common Parameters<a class="headerlink" href="#common-parameters" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p><em>CFG</em>: Controls how much the text prompt affects the image.  Its
+<li><em>CFG</em>: Controls how much the text prompt affects the image.  Its
   effect will depend on the model, but generally lower values (<strong>1 -
   4.5</strong>) will provide a bit more "chaos" in the image usually with some
   desaturation, and higher values (<strong>6.5 - 10</strong>) will increase the
-  saturation but may lead to "overcooking".</p>
-</li>
-<li>
-<p><em>Resolution</em>: Many models are trained using images with around
+  saturation but may lead to "overcooking".</li>
+<li><em>Resolution</em>: Many models are trained using images with around
   <strong>1024x1024</strong> pixels, with varying ratios. E.g. for portrait you may
   use <strong>768x1280</strong>, or the opposite for landscape.  Other resolutions
   may work, but higher resolutions increase the chances of duplicate
-  objects, and increase VRAM usage and decrease speed.</p>
-</li>
+  objects, and increase VRAM usage and decrease speed.</li>
+<li><em>Denoising Strength</em>: When using image-to-image, this controls how much of the original image is preserved, with lower values preserving the input more, and higher values leading to more change.</li>
 </ul>
 <h1 id="glossary-of-terms">Glossary of Terms<a class="headerlink" href="#glossary-of-terms" title="Permanent link">&para;</a></h1>
 
@@ -1157,7 +1286,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-08-19T06:32:15+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-08-19</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-09-19T01:02:06+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-09-19</span>
   </span>
 
     
@@ -1308,7 +1437,7 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.tabs.link", "content.tooltips", "header.autohide", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.tabs.link", "content.tooltips", "header.autohide", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "toc.follow"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
