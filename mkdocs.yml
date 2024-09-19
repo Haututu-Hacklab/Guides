@@ -2,7 +2,7 @@
 site_name: Haututu Guides
 site_description: The (un)official knowledgebase for the Hacklab 
 site_author: Dyson Parkes
-site_url: https://haututu-hacklab.github.io/Guides/
+site_url: https://guides.haututuhacklab.nz/
 edit_uri: https://github.com/Haututu-Hacklab/Guides/edit/development/docs/
 repo_url: https://github.com/Haututu-Hacklab/Guides
 repo_name: Haututu-Hacklab/Guides
@@ -12,7 +12,6 @@ copyright: >
 # Site appearance (logos, colours, icons)
 theme:
   name: material
-  #custom_dir: docs/overrides
   language: en
   code_wrap: true
   features:
