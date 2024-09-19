@@ -1,5 +1,3 @@
-# Glossary of Terms
-
 *[Ai]: Artificial Intelligence  
 *[AI]: Artificial Intelligence  
 *[GIMP]: GNU Image Manipulation Program  
@@ -8,4 +6,4 @@
 *[YPos]: The vertical (front-to-back) coordinate of the head  
 *[LLM]: Large Language Model  
 *[LLMs]: Large Language Models  
-*[Focal Point]: How wide the beam of the laser is / how finely it can cut  
+*[Focal Point]: How wide the beam of the laser is / how finely it can cut
