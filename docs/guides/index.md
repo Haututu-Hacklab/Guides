@@ -15,3 +15,7 @@
 
   - [Making Art with AI](ai/art)
   - [Chatbots and talking with LLMs](ai/chat)
+
+- ## Virtual Reality
+
+  - [Playing games with Virtual Reality](virtual-reality/playing-games)
