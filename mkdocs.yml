@@ -126,6 +126,7 @@ nav:
       - Materials: guides/laser/materials.md
       - Speeds: guides/laser/speeds.md
     - 3D Printing:
+      - Machine Details: guides/3dprinting/machine-details.md
       - Things to consider: guides/3dprinting/considerations.md
       - Limitations: guides/3dprinting/limitations.md
     - Artificial Intelligence:
