@@ -2,11 +2,11 @@
 
 The AI station is set up for chatting with AI models.
 
-TODO write this while at the Hacklab...
-
 ## Running
 
-Make sure that Ollama is running, and open your browser to [127.0.0.1:8080](http://127.0.0.1:8080).
+Open WebUI should be started by default and running in the background (through Docker). This uses the Ollama service for text generation.
+
+To use open your browser to [127.0.0.1:3000](http://127.0.0.1:3000).
 
 ## Using
 

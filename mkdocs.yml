@@ -2,7 +2,7 @@
 site_name: Haututu Guides
 site_description: The (un)official knowledgebase for the Hacklab 
 site_author: Dyson Parkes
-site_url: https://haututu-hacklab.github.io/Guides/
+site_url: https://guides.haututuhacklab.nz/
 edit_uri: https://github.com/Haututu-Hacklab/Guides/edit/development/docs/
 repo_url: https://github.com/Haututu-Hacklab/Guides
 repo_name: Haututu-Hacklab/Guides
@@ -12,7 +12,6 @@ copyright: >
 # Site appearance (logos, colours, icons)
 theme:
   name: material
-  #custom_dir: docs/overrides
   language: en
   code_wrap: true
   features:
@@ -81,6 +80,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       guess_lang: true
       anchor_linenums: true
@@ -126,11 +126,14 @@ nav:
       - Materials: guides/laser/materials.md
       - Speeds: guides/laser/speeds.md
     - 3D Printing:
+      - Machine Details: guides/3dprinting/machine-details.md
       - Things to consider: guides/3dprinting/considerations.md
       - Limitations: guides/3dprinting/limitations.md
     - Artificial Intelligence:
       - Making Art with AI: guides/ai/art.md
       - Chatbots and talking with LLMs: guides/ai/chat.md
+    - Virtual Reality:
+      - Playing games with Virtual Reality: guides/virtual-reality/playing-games.md
   - Contributing:
     - Adding to the info: info/addinginfo.md
   - Official Hacklab Site: https://www.haututuhacklab.nz/
