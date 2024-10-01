@@ -1,5 +1,3 @@
-# Glossary of Terms
-
 *[Ai]: Artificial Intelligence  
 *[AI]: Artificial Intelligence  
 *[GIMP]: GNU Image Manipulation Program  
