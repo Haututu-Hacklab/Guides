@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://guides.haututuhacklab.nz/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/3dprinting/considerations/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/3dprinting/limitations/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
+    </url>
+    <url>
+         <loc>https://guides.haututuhacklab.nz/guides/3dprinting/machine-details/</loc>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/ai/art/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/ai/chat/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/laser/images/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/laser/machine-details/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/laser/materials/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/laser/speeds/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/guides/virtual-reality/playing-games/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/info/addinginfo/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/info/facilities/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
     <url>
          <loc>https://guides.haututuhacklab.nz/info/membership/</loc>
-         <lastmod>2024-09-19</lastmod>
+         <lastmod>2024-10-01</lastmod>
     </url>
 </urlset>
