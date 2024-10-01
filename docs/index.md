@@ -22,6 +22,7 @@ For info about the Hacklab itself
 
     - [Considerations when 3D Printing](./guides/3dprinting/considerations)
     - [Limitations of 3D Printing](./guides/3dprinting/limitations)
+    - [Machine Models](./guides/3dprinting/machine-details)
 
 - ### Laser Cutting
 
