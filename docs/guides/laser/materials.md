@@ -11,21 +11,21 @@ This page is very much a WIP (Work In Progress).
 
 === "3mm ply"
 
-    | Action | Power Level | Head Speed |
-    | --- | --- | --- |
-    | Lightly engrave | 10% | 200 mm/s |
-    | Cut | 80% | 100 mm/s |
+    | Action | Power Level | Head Speed | Cut Depth |
+    | --- | --- | --- | --- |
+    | Lightly engrave | 10% | 200 mm/s | 0.1mm |
+    | Cut | 80% | 100 mm/s | 3mm |
 
 === "4mm ply"
 
-    | Action | Power Level | Head Speed |
-    | --- | --- | --- |
-    | Lightly engrave | ??% | ?? mm/s |
-    | Cut | ??% | ?? mm/s |
+    | Action | Power Level | Head Speed | Cut Depth |
+    | --- | --- | --- | --- |
+    | Lightly engrave | ??% | ?? mm/s | ?? |
+    | Cut | ??% | ?? mm/s | ?? |
 
 === "8mm ply"
 
-    | Action | Power Level | Head Speed |
-    | --- | --- | --- |
-    | Lightly engrave | ??% | ?? mm/s |
-    | Cut | ??% | ?? mm/s |
+    | Action | Power Level | Head Speed | Cut depth |
+    | --- | --- | --- | --- |
+    | Lightly engrave | ??% | ?? mm/s | ?? |
+    | Cut | ??% | ?? mm/s | ?? |
