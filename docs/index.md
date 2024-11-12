@@ -28,6 +28,7 @@ For info about the Hacklab itself
 
     - [Working with images](./guides/laser/images)
     - [Different materials](./guides/laser/materials)
+    - [Different types of cut](../guides/laser/cutting-techniques)
     - [Effects of laser speeds](./guides/laser/speeds)
     - [Machine Details](./guides/laser/machine-details)
 
