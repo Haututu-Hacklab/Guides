@@ -13,8 +13,9 @@ For info about the Hacklab itself
 
 ## Getting started
 
+- [Official Website](https://www.haututuhacklab.nz/)  
 - [Membership](https://www.haututuhacklab.nz/membership)
-- [Facilities](https://www.haututuhacklab.nz/spaces/)  
+- [Facilities](https://www.haututuhacklab.nz/spaces/)
 
 ## Guides
 
